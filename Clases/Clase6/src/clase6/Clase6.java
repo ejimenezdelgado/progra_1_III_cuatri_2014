@@ -20,6 +20,16 @@ public class Clase6 {
     public static void main(String[] args) {
         // TODO code application logic here
         
+        Ejercicio3 oEjercicio3=new Ejercicio3();
+        System.out.println(oEjercicio3.Rote("Liga campeon"));
+        System.out.println(oEjercicio3.Palindromo("Somos lideres"));
+        System.out.println(oEjercicio3.MarcaPalabra("Vamos por ese mundial de clubes","mundial"));
+        
+        System.out.println(oEjercicio3.CantidadRepeticiones("Vamos el pentacampeonato, por que somos los campeones de por vida campeones","campe"));
+        
+        System.out.println(oEjercicio3.Substring("Somos lideres",0,6));
+        System.out.println(oEjercicio3.Mayuscula("Somos lideres"));
+        
         int opcion=0;        
         Scanner oScanner=new Scanner(System.in);
         
