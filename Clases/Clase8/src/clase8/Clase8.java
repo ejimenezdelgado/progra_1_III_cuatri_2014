@@ -23,10 +23,16 @@ public class Clase8 {
         oEjercicio1.CargarMatriz();
         System.out.print(oEjercicio1.Imprimir());*/
         
-        Ejercicio2 oEjercicio2=new Ejercicio2();
+     /*   Ejercicio2 oEjercicio2=new Ejercicio2();
         oEjercicio2.CrearMatriz(4, 4);
         oEjercicio2.CargarMatriz();
-        System.out.print(oEjercicio2.Imprimir());
+        System.out.print(oEjercicio2.Imprimir());*/
+        
+        
+        Ejercicio3 oEjercicio3=new Ejercicio3();
+        oEjercicio3.CrearMatriz(2, 5);
+        oEjercicio3.CargarMatriz();
+        System.out.print(oEjercicio3.Imprimir());
     }
     
 }
