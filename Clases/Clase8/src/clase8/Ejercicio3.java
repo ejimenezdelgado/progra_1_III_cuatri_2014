@@ -26,15 +26,11 @@ public class Ejercicio3 {
     public void CargarMatriz()
     {
         Scanner teclado =new Scanner(System.in);
-        
-        
         for (int j = 0; j < matriz[0].length; j++) {            
             for (int i = 0; i < matriz.length; i++) {
                 matriz[i][j]=teclado.nextInt();
             }                
-        }
-        
-        
+        } 
     }
     
     public String Imprimir()
