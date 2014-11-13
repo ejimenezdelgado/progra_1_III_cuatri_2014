@@ -6,11 +6,8 @@
 
 package clase2;
 
-<<<<<<< HEAD
 import java.util.Scanner;
 
-=======
->>>>>>> b511039... Primera clase programada
 /**
  *
  * @author Jimenez
@@ -22,8 +19,6 @@ public class Clase2 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-<<<<<<< HEAD
-        
         boolean validar=true;
         int opcion;
         char continuar;
@@ -68,9 +63,6 @@ public class Clase2 {
              if((continuar=='N')||(continuar=='n'))
                  validar=false;
         }
-        
-=======
->>>>>>> b511039... Primera clase programada
     }
     
 }

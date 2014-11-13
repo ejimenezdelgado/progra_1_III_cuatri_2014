@@ -20,7 +20,6 @@ public class CuentaBancaria {
         saldoInicial=0;
         hayError=false;
     }
-<<<<<<< HEAD
     
     /**
      * Este método sirve para aumentar la cuenta de un usuario
@@ -58,8 +57,5 @@ public class CuentaBancaria {
     public void setHayError(boolean hayError) {
         this.hayError = hayError;
     }
-=======
-
->>>>>>> b511039... Primera clase programada
    
 }
