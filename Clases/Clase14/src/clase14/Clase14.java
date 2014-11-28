@@ -6,6 +6,8 @@
 
 package clase14;
 
+import Frontend.FrmLogin;
+
 /**
  *
  * @author Jimenez
@@ -17,6 +19,9 @@ public class Clase14 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        
+        FrmLogin oFrmLogin=new FrmLogin();
+        oFrmLogin.setVisible(true);
     }
     
 }
