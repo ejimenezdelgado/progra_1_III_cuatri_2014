@@ -4,23 +4,27 @@
  * and open the template in the editor.
  */
 
-package clase14;
+package clase15;
 
-import Frontend.FrmLogin;
+import Frontend.FrmGraficos;
+import Frontend.FrmMain;
 
 /**
  *
  * @author Jimenez
  */
-public class Clase14 {
+public class Clase15 {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
+       // FrmMain oFrmMain=new FrmMain();
+       // oFrmMain.setVisible(true);
         
-        FrmLogin oFrmLogin=new FrmLogin();
-        oFrmLogin.setVisible(true);
+        FrmGraficos oFrmGraficos=new FrmGraficos();
+        oFrmGraficos.setVisible(true);
     }
+    
 }

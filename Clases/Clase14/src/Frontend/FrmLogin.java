@@ -46,8 +46,10 @@ public class FrmLogin extends javax.swing.JFrame {
         jLabel2.setText("Clave");
         jLabel2.setName("lblClave"); // NOI18N
 
+        txtUsuario.setText("Admin");
         txtUsuario.setName("txtUsuario"); // NOI18N
 
+        txtClave.setText("123");
         txtClave.setName("txtClave"); // NOI18N
 
         btnAceptar.setText("Aceptar");
